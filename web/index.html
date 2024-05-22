@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Your App</title>
+    <!-- Add Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+    <script>
+      //Web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyB27D5G5TCK33W0q8cHiffexEwEFzH4YXw",
+        authDomain: "learning-app-c4281.firebaseapp.com",
+        projectId: "learning-app-c4281",
+        storageBucket: "learning-app-c4281.appspot.com",
+        messagingSenderId: "405242750187",
+        appId: "1:405242750187:web:3ae9bd9dcf1f63bb210aae",
+        measurementId: "G-6S44QCEKG7"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </head>
+  <body>
+    <script src="main.dart.js"></script>
+  </body>
+</html>
